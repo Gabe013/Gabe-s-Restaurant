@@ -42,6 +42,7 @@
         <li>Jobs</li>
       </ul>
     </nav>
+    <!--Video akin to SH website videos-->
     <section>
       <video
         controls
@@ -54,13 +55,17 @@
         height="720"
       ></video>
     </section>
+    <!--Banner Section akin to SH websites-->
+    <section>
+      <h2>630 N Northwest Hwy, Somewhere, CO</h2>
+    </section>
     <main>
       <h1>Gabe's Restaurant</h1>
       <!--Copilot suggested I use `<blockquote>` instead of the quote element as it's more semantic?!, WIP-->
-      <quote>
+      <q>
         Welcome to our restaurant: <em>come</em> for the <em>food</em>,
         <strong>stay</strong> for <strong>everything</strong>!
-      </quote>
+      </q>
       <h2>About Us</h2>
       <p>
         This restaurant reflects our traditional, family-centered approach to
@@ -71,7 +76,6 @@
       </p>
       <hr />
     </main>
-    <section></section>
     <section>
       <h2>Order Online</h2>
       <!--Add a background image someday-->
@@ -83,15 +87,33 @@
       <p>Our Catering service is unparalleled across the universe!</p>
       <img src="./assets/gabes-restaurant-logo.svg" />
     </section>
-    <h2>630 N Northwest Hwy, Somewhere, CO</h2>
     <section>
       <h2>Private Parties</h2>
       <p>Our Private Parties service is unparalleled across the universe!</p>
       <img src="./assets/gabes-restaurant-logo.svg" />
     </section>
+    <section aria-label="Reviews Carousel">
+      <h2 hidden>Customer Reviews</h2>
+      <div class="carousel">
+        <blockquote class="review active">
+          <p>"Amazing food and friendly staff!"</p>
+          <footer>- Alex</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>"Best Balkan cuisine in town."</p>
+          <footer>- Maria</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>"We loved the private party experience."</p>
+          <footer>- John</footer>
+        </blockquote>
+        <button class="prev" aria-label="Previous review">&lt;</button>
+        <button class="next" aria-label="Next review">&gt;</button>
+      </div>
+    </section>
     <address>
-      <h3>630 N Northwest Hwy, Somewhere, 265202 CO</h3>
-      <h3>Contact:</h3>
+      <p>630 N Northwest Hwy, Somewhere, 265202 CO</p>
+      <p>Contact:</p>
       <a href="tel:+1234567890">+1 (234) 567-890</a><br />
       <a href="mailto:somehow@somehwere.com">somehow@somehwere.com</a>
     </address>
