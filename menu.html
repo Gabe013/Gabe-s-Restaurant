@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Gabe's Restaurant - Menu Page</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header id="main">
@@ -14,14 +15,12 @@
         />
       </a>
     </header>
-    <nav>
+    <nav class="navbar">
       <ul>
         <li>Menu</li>
         <li><a href="#" title="Online Order">Order</a></li>
         <li><a href="#" title="Catering Inquiry page">Catering</a></li>
-        <a href="#" title="Private Parties Inquiry page">
-          <li>Private Parties</li>
-        </a>
+        <li><a href="#" title="Private Parties Inquiry page">Private Parties</a></li>
         <li>
           <a href="#" title="Daily and Weekly Specials offers">Specials</a>
         </li>
@@ -35,12 +34,23 @@
         <li><a href="#" title="Job Application page">Jobs</a></li>
       </ul>
     </nav>
-    <h1>Menu</h1>
-    <button>Main Menu</button>
-    <button>Drinks</button>
-    <section>
+    <section class="menu-section">
+      <h1>Menu</h1>
+      <div class="menus">
+        <button>Main Menu</button>
+        <button>Drinks</button>
+      </div>
+    </section>
+    <section style="border: none;">
       <h2>Main Menu</h2>
       <!--Add table elements later-->
     </section>
+    <nav class="navbar-footer">
+      <ul>
+        <li><a href="#" title="Online Order">Order</a></li>
+        <li><a href="#" title="Catering Inquiry page">Catering</a></li>
+        <li><a href="#" title="Private Parties Inquiry page">Private Parties</a></li>
+        <li><a href="#" title="Special Events at the restaurant - lotteries, gigs, etc.">Events</a></li>
+    </nav>
   </body>
 </html>
