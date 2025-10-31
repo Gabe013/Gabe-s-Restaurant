@@ -1,185 +1,156 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Gabriel Mesaros">
-    <!-- If it were a real website, I'd add relevant phrases and keywords within the description below to improve SEO-->
-    <meta name="description" content="A simple restaurant website">
-    <!--I understand that the keywords meta tag is not so popular anymore due to abuse and scam potential-->
-    <meta
-      name="keywords"
-      content="something, relevant, would, also, go, here"
-    >
-    <meta property="og:image" content="./assets/gabes-restaurant-logo.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:description" content="A simple, demo restaurant page">
-    <meta property="og:title" content="Gabe's Restaurant">
-    <title>Gabe's Restaurant - 630 N Northwest Hwy, Somewhere, CO</title>
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
-    <!--Adding Apple device icons later?!-->
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <!--Add a blockquote review from a website with the `<cite>` element one day-->
-    <header id="main">
-      <a href="index.html" title="Gabe's Restaurant">
-        <img
-          src="./assets/gabes-restaurant-logo.svg"
-          alt="Logo for Gabes Restaurant featuring stylized black text Gabes Restaurant in a playful handwritten font, set against a clean white background, conveying a welcoming and friendly atmosphere"
-        />
-      </a>
-    <nav>
-      <ul>
-        <li><a href="menu.html" title="Menu (Food & Drinks) page">Menu</a></li>
-        <li><a href="#" title="Online Order">Order</a></li>
-        <li><a href="#" title="Catering Inquiry page">Catering</a></li>
-        <a href="#" title="Private Parties Inquiry page">
-          <li>Private Parties</li>
-        </a>
-        <li>
-          <a href="#" title="Daily and Weekly Specials offers">Specials</a>
-        </li>
-        <li>
-          <a
-            href="#"
-            title="Special Events at the restaurant - lotteries, gigs, etc."
-            >Events</a
-          >
-        </li>
-        <li><a href="#" title="Job Application page">Jobs</a></li>
-      </ul>
-    </nav>
-    </header>
-    <!--Video akin to SH website videos-->
-    <section>
-      <video
-        controls
-        autoplay
-        loop
-        muted
-        playsinline
-        width="1280"
-        height="720"
-        title="Gabe's Restaurant Cover Video"
-      >
-        <source
-          src="./assets/1111421-hd_1920_1080_30fps.mp4"
-          srclang="en"
-          type="video/mp4"
-        />
-        <track
-          kind="captions"
-          src="./assets/video-audio-description.vtt"
-          srclang="en"
-          label="English Description"
-        />
-        <p>
-          Your browser does not support HTML video. Please visit
-          <a
-            href="https://videos.pexels.com/video-files/1111421/1111421-hd_1920_1080_30fps.mp4"
-            title="View Cover Video"
-            >the following link</a
-          >
-          to download and view it.
-        </p>
-      </video>
-    </section>
-    <!--Banner Section akin to SH websites-->
-    <section>
-      <h2>630 N Northwest Hwy, Somewhere, CO</h2>
-    </section>
-    <main>
-      <h1>Gabe's Restaurant</h1>
-      <p>
-        Welcome to our restaurant: <em>come</em> for the <em>food</em>,
-        <strong>stay</strong> for <strong>everything</strong>!
-      </p>
-      <h2>About Us</h2>
-      <p>
-        This restaurant reflects our traditional, family-centered approach to
-        Balkan and Meditteranean cuisine to serve the best food and offer the
-        best possible service to all our guests.
-        <br />Our approach to cooking and serving famous dishes reflects our
-        attitude towards life and work in general.
-      </p>
-      <hr />
-    </main>
-    <!--Add CSS Background Images for the Sections one day-->
-    <section>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gabriel Mesaros">
+  <!-- If it were a real website, I'd add relevant phrases and keywords within the description below to improve SEO-->
+  <meta name="description" content="A simple restaurant website">
+  <!--I understand that the keywords meta tag is not so popular anymore due to abuse and scam potential-->
+  <meta name="keywords" content="something, relevant, would, also, go, here">
+  <meta property="og:image" content="./assets/gabes-restaurant-logo.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:description" content="A simple, demo restaurant page">
+  <meta property="og:title" content="Gabe's Restaurant">
+  <title>Gabe's Restaurant - 630 N Northwest Hwy, Somewhere, CO</title>
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <!--Adding Apple device icons later?!-->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!--Add a blockquote review from a website with the `<cite>` element one day-->
+  <header id="main">
+    <a href="index.html" title="Gabe's Restaurant">
+      <img src="./assets/gabes-restaurant-logo.svg"
+        alt="Logo for Gabes Restaurant featuring stylized black text Gabes Restaurant in a playful handwritten font, set against a clean white background, conveying a welcoming and friendly atmosphere" />
+    </a>
+  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="menu.html" title="Menu (Food & Drinks) page">Menu</a></li>
+      <li><a href="#" title="Online Order">Order</a></li>
+      <li><a href="#" title="Catering Inquiry page">Catering</a></li>
+      <li><a href="#" title="Private Parties Inquiry page">Private Parties
+        </a></li>
+      <li>
+        <a href="#" title="Daily and Weekly Specials offers">Specials</a>
+      </li>
+      <li>
+        <a href="#" title="Special Events at the restaurant - lotteries, gigs, etc.">Events</a>
+      </li>
+      <li><a href="#" title="Job Application page">Jobs</a></li>
+    </ul>
+  </nav>
+  <!--Video akin to SH website videos-->
+  <video controls autoplay loop muted playsinline width="1280" height="720" title="Gabe's Restaurant Cover Video">
+    <source src="./assets/1111421-hd_1920_1080_30fps.mp4" srclang="en" type="video/mp4" />
+    <track kind="captions" src="./assets/video-audio-description.vtt" srclang="en" label="English Description" />
+    <p>
+      Your browser does not support HTML video. Please visit
+      <a href="https://videos.pexels.com/video-files/1111421/1111421-hd_1920_1080_30fps.mp4"
+        title="View Cover Video">the following link</a>
+      to download and view it.
+    </p>
+  </video>
+  <!--Banner Section akin to SH websites-->
+  <section>
+    <h2>630 N Northwest Hwy, Somewhere, CO</h2>
+  </section>
+  <main class="header">
+    <h1>Gabe's Restaurant</h1>
+    <p>
+      Welcome to our restaurant: <em>come</em> for the <em>food</em>,
+      <strong>stay</strong> for <strong>everything</strong>!
+    </p>
+    <h2>About Us</h2>
+    <p>
+      This restaurant reflects our traditional, family-centered approach to
+      Balkan and Meditteranean cuisine to serve the best food and offer the
+      best possible service to all our guests.
+      <br />Our approach to cooking and serving famous dishes reflects our
+      attitude towards life and work in general.
+    </p>
+  </main>
+  <!--Add CSS Background Images for the Sections one day-->
+  <section>
+    <div class="text-section">
       <h2>Order Online</h2>
       <p>Order Pick-Up or Delivery, it's all about you and the food!</p>
-      <button disabled>Order Online</button>
-    </section>
-    <section>
+    </div>
+    <div class="container"><button disabled>Order Online</button></div>
+  </section>
+  <section>
+    <div class="text-section">
       <h2>Catering</h2>
-      <img
-        src="./assets/food-catering-buffet-food-drink-ba38db.jpg"
-        alt="dishes
-      shown as catering choices - sausages, flying people, etc."
-        width="640"
-        height="427"
-      />
       <p>Our Catering service is unparalleled across the universe!</p>
-    </section>
-    <section>
+    </div>
+    <div class="container">
+      <img src="./assets/food-catering-buffet-food-drink-ba38db.jpg" alt="dishes
+        shown as catering choices - sausages, flying people, etc." width="640" height="427" />
+    </div>
+  </section>
+  <section>
+    <div class="text-section">
       <h2>Private Parties</h2>
       <p>Our Private Parties service is unparalleled across the universe!</p>
-      <img
-        src="./assets/Online-Conferences-meetings-3.jpg"
-        alt="A dining area with a set table with wine glasses and various dishes"
-        width="740"
-        height="492"
-      />
-    </section>
-    <section aria-label="Reviews Carousel">
-      <h2 hidden>Customer Reviews</h2>
-      <div class="carousel">
-        <blockquote class="review active">
-          <p>"Amazing food and friendly staff!"</p>
-          <cite>- Alex</cite>
-        </blockquote>
-        <blockquote class="review">
-          <p>"Best Balkan cuisine in town!"</p>
-          <cite>- Maria</cite>
-        </blockquote>
-        <blockquote class="review">
-          <p>"We loved the private party experience."</p>
-          <cite>- John</cite>
-        </blockquote>
-        <button class="prev" aria-label="Previous review">&lt;</button>
-        <button class="next" aria-label="Next review">&gt;</button>
-      </div>
-    </section>
-    <address>
-      <p>630 N Northwest Hwy, Somewhere, 265202 CO</p>
-      <p>Contact:</p>
-      <a href="tel:+1234567890">+1 (234) 567-890</a><br />
-      <a
-        href="mailto:somehow@somehwere.com?subject=Hello%2C%20Gabe%21&body=Hi%2C%20Gabe%2C%20I%20would%20like%20to%20inquire%20about%20"
-        >somehow@somehwere.com</a
-      >
-    </address>
-    <button><a href="#main">Back to top</a></button>
-    <footer>
-      <p>&copy; 2025 Gabe's Restaurant. All rights reserved.</p>
-      <p>
-        Image Credits:
-        <a href="https://pixabay.com/" title="Pixabay">https://pixabay.com/</a>
-        <a
-          href="https://theculinarycollectiveatl.com/wp-content/uploads/2023/11/Online-Conferences-meetings-3.jpg"
-          title="The Culinary Collective Atl"
-          >The Culinary Collective Atl</a
-        ><br />
-        <a
-          href="https://videos.pexels.com/video-files/1111421/1111421-hd_1920_1080_30fps.mp4"
-          title="Download and View the Cover Video - Pexels.com"
-          >Cover Video Source on Pexels.com</a
-        >
-      </p>
-    </footer>
-    <!--Add video credits soon!-->
-  </body>
+    </div>
+    <div class="container">
+      <img src="./assets/Online-Conferences-meetings-3.jpg"
+        alt="A dining area with a set table with wine glasses and various dishes" width="640" height="427" />
+    </div>
+  </section>
+  <section aria-label="Reviews Carousel">
+    <h2 hidden>Customer Reviews</h2>
+    <div class="carousel">
+      <blockquote class="review active">
+        <p>"Amazing food and friendly staff!"</p>
+        <cite>- Alex</cite>
+      </blockquote>
+      <blockquote class="review">
+        <p>"Best Balkan cuisine in town!"</p>
+        <cite>- Maria</cite>
+      </blockquote>
+      <blockquote class="review">
+        <p>"We loved the private party experience."</p>
+        <cite>- John</cite>
+      </blockquote>
+      <button class="prev" aria-label="Previous review">&lt;</button>
+      <button class="next" aria-label="Next review">&gt;</button>
+    </div>
+  </section>
+  <address>
+    <p>630 N Northwest Hwy, Somewhere, 265202 CO</p>
+    <p>Contact:</p>
+    <a href="tel:+1234567890">+1 (234) 567-890</a><br />
+    <a
+      href="mailto:somehow@somewhere.com?subject=Hello%2C%20Gabe%21&body=Hi%2C%20Gabe%2C%20I%20would%20like%20to%20inquire%20about%20">somehow@somewhere.com</a>
+  </address>
+  <button><a href="#main">Back to top</a></button>
+  <footer>
+    <p>&copy; 2025 Gabe's Restaurant. All rights reserved.</p>
+    <p>
+      Image Credits:
+      <a href="https://pixabay.com/" title="Pixabay" target="_blank" rel="noopener noreferrer">https://pixabay.com/</a>
+      <a href="https://theculinarycollectiveatl.com/wp-content/uploads/2023/11/Online-Conferences-meetings-3.jpg"
+        title="The Culinary Collective Atl" target="_blank" rel="noopener noreferrer">The Culinary Collective
+        Atl</a><br />
+      <a href="https://videos.pexels.com/video-files/1111421/1111421-hd_1920_1080_30fps.mp4"
+        title="Download and View the Cover Video - Pexels.com" target="_blank" rel="noopener noreferrer">Cover Video
+        Source on Pexels.com</a>
+    </p>
+    <nav class="navbar-footer">
+      <ul>
+        <li><a href="#" title="Online Order">Order</a></li>
+        <li><a href="#" title="Catering Inquiry page">Catering</a></li>
+        <li><a href="#" title="Private Parties Inquiry page">Private Parties</a></li>
+        <li><a href="#" title="Special Events at the restaurant - lotteries, gigs, etc.">Events</a></li>
+    </nav>
+  </footer>
+  <!--Add video credits soon!-->
+</body>
+
 </html>
