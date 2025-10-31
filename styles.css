@@ -161,6 +161,8 @@ footer {
 .menu-section {
   display: flex;
   flex-flow: column wrap;
+  border: none;
+  padding-top: 0;
 }
 
 .menus {
