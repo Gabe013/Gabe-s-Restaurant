@@ -24,7 +24,9 @@ section {
 
 section img {
   flex-shrink: 2;
-  min-width: 0px;
+  width: 640px;
+  height: auto;
+  object-fit: contain;
 }
 
 h2 {
