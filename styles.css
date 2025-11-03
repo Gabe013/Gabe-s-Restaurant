@@ -25,6 +25,7 @@ section {
   align-content: center;
   border-top: 2px solid black;
   padding-top: 15px;
+  overflow-x: hidden;
 }
 
 section img {
