@@ -28,9 +28,14 @@ section {
   overflow-x: hidden;
 }
 
+.no-border-specmargin {
+  border: none;
+  margin: 0 0 15px 0;
+}
+
 section img {
   flex-shrink: 2;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   object-fit: scale-down;
 }
@@ -50,6 +55,7 @@ h2 {
   font-size: x-large;
   font-weight: bold;
   height: auto;
+  margin: 5px 0 0 0;
 }
 
 .navbar a {
@@ -79,6 +85,7 @@ ul {
 video {
   height: auto;
   width: 100%;
+  margin: 0;
 }
 
 .header {
@@ -88,6 +95,8 @@ video {
   justify-content: center;
   align-items: center;
   align-content: center;
+  gap: 15px;
+  margin: 0 0 15px 0;
 }
 
 .header h1 {
