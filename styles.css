@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   text-align: center;
-  margin: 5px 0 5px 0;
+  margin: 5px 0 0 0;
   padding: 0;;
 } 
 
@@ -54,7 +54,7 @@ h2 {
   font-size: x-large;
   font-weight: bold;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -77,6 +77,8 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  margin: 0 auto;
+  padding-bottom: 5px;
 }
 
 ul {
@@ -106,11 +108,15 @@ video {
   line-height: 1.2;
 }
 
+.header h2 {
+  margin-top: 10px;
+}
+
 .header p {
   font-size: 1.1rem;
   line-height: 1.2;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .text-section {
@@ -119,6 +125,11 @@ video {
   flex-flow: column wrap;
   padding-left: 5px;
   padding-right: 5px;
+  margin: 0 auto;
+}
+
+.text-section p {
+  margin-bottom: 5px;
 }
 
 .container {
@@ -132,7 +143,6 @@ footer {
 .navbar-footer {
   max-width: 100%;
   background-color: black;
-  height: 60px;
   font-size: x-large;
   font-weight: bold;
   height: auto;
@@ -141,8 +151,8 @@ footer {
   justify-content: center;
   align-items: center;
   display: none;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navbar-footer a {
@@ -160,7 +170,7 @@ footer {
   flex-flow: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 @media all and (max-width: 430px) and (orientation: portrait) {
