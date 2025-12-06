@@ -19,6 +19,9 @@
   <!--Adding Apple device icons later?!-->
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/transition.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/collapse.js"></script>
 </head>
 
 <body>
@@ -29,21 +32,30 @@
         alt="Logo for Gabes Restaurant featuring stylized black text Gabes Restaurant in a playful handwritten font, set against a clean white background, conveying a welcoming and friendly atmosphere" />
     </a>
   </header>
-  <nav class="navbar">
-    <ul>
-      <li><a href="menu.html" title="Menu (Food & Drinks) page">Menu</a></li>
-      <li><a href="#" title="Online Order">Order</a></li>
-      <li><a href="#" title="Catering Inquiry page">Catering</a></li>
-      <li><a href="#" title="Private Parties Inquiry page">Private Parties
-        </a></li>
-      <li>
-        <a href="#" title="Daily and Weekly Specials offers">Specials</a>
-      </li>
-      <li>
-        <a href="#" title="Special Events at the restaurant - lotteries, gigs, etc.">Events</a>
-      </li>
-      <li><a href="#" title="Job Application page">Jobs</a></li>
-    </ul>
+  <nav class="bs3-navbar" role="navigation">
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <nav id="mainNav" class="navbar collapse nav-collapse">
+      <ul class="my-nav-list">
+        <li><a href="menu.html" title="Menu (Food & Drinks) page">Menu</a></li>
+        <li><a href="#" title="Online Order">Order</a></li>
+        <li><a href="#" title="Catering Inquiry page">Catering</a></li>
+        <li><a href="#" title="Private Parties Inquiry page">Private Parties
+          </a></li>
+        <li>
+          <a href="#" title="Daily and Weekly Specials offers">Specials</a>
+        </li>
+        <li>
+          <a href="#" title="Special Events at the restaurant - lotteries, gigs, etc.">Events</a>
+        </li>
+        <li><a href="#" title="Job Application page">Jobs</a></li>
+      </ul>
+    </nav>
   </nav>
   <!--Video akin to SH website videos-->
   <video controls autoplay loop muted playsinline width="1280" height="720" title="Gabe's Restaurant Cover Video">
