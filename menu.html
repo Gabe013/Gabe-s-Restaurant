@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gabe's Restaurant - Menu Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/transition.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/collapse.js"></script>
   </head>
   <body>
     <header id="main">
@@ -15,24 +19,33 @@
         />
       </a>
     </header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#" title="Menu Page (Food & Drinks Page)">Menu</a></li>
-        <li><a href="#" title="Online Order">Order</a></li>
-        <li><a href="#" title="Catering Inquiry page">Catering</a></li>
-        <li><a href="#" title="Private Parties Inquiry page">Private Parties</a></li>
-        <li>
-          <a href="#" title="Daily and Weekly Specials offers">Specials</a>
-        </li>
-        <li>
-          <a
-            href="#"
-            title="Special Events at the restaurant - lotteries, gigs, etc."
-            >Events</a
-          >
-        </li>
-        <li><a href="#" title="Job Application page">Jobs</a></li>
-      </ul>
+    <nav class="bs3-navbar" role="navigation">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <nav id="mainNav" class="navbar collapse nav-collapse">
+        <ul class="my-nav-list">
+          <li><a href="menu.html" title="Menu Page (Food & Drinks Page)">Menu</a></li>
+          <li><a href="#" title="Online Order">Order</a></li>
+          <li><a href="#" title="Catering Inquiry page">Catering</a></li>
+          <li><a href="#" title="Private Parties Inquiry page">Private Parties</a></li>
+          <li>
+            <a href="#" title="Daily and Weekly Specials offers">Specials</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              title="Special Events at the restaurant - lotteries, gigs, etc."
+              >Events</a
+            >
+          </li>
+          <li><a href="#" title="Job Application page">Jobs</a></li>
+        </ul>
+      </nav>
     </nav>
     <section class="menu-section">
       <h1>Menu</h1>
@@ -45,12 +58,20 @@
       <h2>Main Menu</h2>
       <!--Add table elements later-->
     </section>
-    <nav class="navbar-footer">
-      <ul>
-        <li><a href="#" title="Online Order">Order</a></li>
-        <li><a href="#" title="Catering Inquiry page">Catering</a></li>
-        <li><a href="#" title="Private Parties Inquiry page">Private Parties</a></li>
-        <li><a href="#" title="Special Events at the restaurant - lotteries, gigs, etc.">Events</a></li>
-    </nav>
+    <footer>
+      <p>&copy; 2025 Gabe's Restaurant. All rights reserved.</p>
+      <p>
+        Image Credits:
+        <a href="https://pixabay.com/" title="Pixabay" target="_blank" rel="noopener noreferrer">https://pixabay.com/</a>
+      </p>
+      <nav class="navbar-footer">
+        <ul>
+          <li><a href="#" title="Online Order">Order</a></li>
+          <li><a href="#" title="Catering Inquiry page">Catering</a></li>
+          <li><a href="#" title="Private Parties Inquiry page">Private Parties</a></li>
+          <li><a href="#" title="Special Events at the restaurant - lotteries, gigs, etc.">Events</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
