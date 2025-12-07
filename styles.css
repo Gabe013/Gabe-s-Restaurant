@@ -7,7 +7,7 @@
 body {
   font-size: 16px;
   line-height: 1.5;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(240, 240, 240);
 }
 
 img {
@@ -270,7 +270,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   border: none;
-  padding-top: 0;
+  height: 90vh;
 }
 
 .menus {
